@@ -1,7 +1,7 @@
-
 import { Trophy } from "lucide-react";
 import { getPrograms } from "@/lib/programs-data";
 import ProgramContainer from "@/components/program/ProgramContainer";
+import { Suspense } from "react";
 
 export default function ProgramsPage() {
   const allPrograms = getPrograms();
@@ -45,7 +45,7 @@ export default function ProgramsPage() {
                   Total Program
                 </div>
               </div>
-              
+
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">
                   {allPrograms.filter((p) => p.status === "Selesai").length}
@@ -56,15 +56,32 @@ export default function ProgramsPage() {
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold text-primary">4</div>
-                <div className="text-sm text-muted-foreground">Kategori KKN</div>
+                <div className="text-sm text-muted-foreground">
+                  Kategori KKN
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Programs Section */}
-      <ProgramContainer allPrograms={allPrograms} />
+      {/* Programs Section
+      <ProgramContainerWrapper allPrograms={allPrograms} /> */}
+
+      <Suspense fallback={
+        <div className="py-16">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <div className="animate-pulse">
+                <div className="h-8 bg-muted rounded w-48 mx-auto mb-4"></div>
+                <div className="h-4 bg-muted rounded w-32 mx-auto"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }>
+        <ProgramContainer allPrograms={allPrograms} />
+      </Suspense>
     </div>
   );
 }
