@@ -1,7 +1,6 @@
 import { Trophy } from "lucide-react";
 import { getPrograms } from "@/lib/programs-data";
-import ProgramContainer from "@/components/program/ProgramContainer";
-import { Suspense } from "react";
+import ProgramContainerWrapper from "@/components/program/ProgramContainerWrapper";
 
 export default function ProgramsPage() {
   const allPrograms = getPrograms();
@@ -65,10 +64,10 @@ export default function ProgramsPage() {
         </div>
       </section>
 
-      {/* Programs Section
-      <ProgramContainerWrapper allPrograms={allPrograms} /> */}
+      {/* Programs Section */}
+      <ProgramContainerWrapper allPrograms={allPrograms} />
 
-      <Suspense fallback={
+      {/* <Suspense fallback={
         <div className="py-16">
           <div className="container mx-auto px-4">
             <div className="text-center">
@@ -81,7 +80,7 @@ export default function ProgramsPage() {
         </div>
       }>
         <ProgramContainer allPrograms={allPrograms} />
-      </Suspense>
+      </Suspense> */}
     </div>
   );
 }
