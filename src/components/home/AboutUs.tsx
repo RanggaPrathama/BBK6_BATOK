@@ -22,7 +22,7 @@ export default function AboutUs() {
                 {/* Image 1 - Large */}
                 <div className="col-span-8 row-span-5 relative rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-lg">
                   <Image
-                    src="/IMG_9097.png"
+                    src="/foto_5.jpeg"
                     alt="Kegiatan utama BBK 6 UNAIR"
                     fill
                     className="object-cover"
@@ -32,7 +32,7 @@ export default function AboutUs() {
                 {/* Image 2 - Top Right */}
                 <div className="col-span-4 row-span-3 relative rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-lg">
                   <Image
-                    src="/IMG_9097.png"
+                    src="/foto_4.jpeg"
                     alt="Kelompok belajar"
                     fill
                     className="object-cover"
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 {/* Image 3 - Bottom Left */}
                 <div className="col-span-4 row-span-5 relative rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-lg">
                   <Image
-                    src="/IMG_9097.png"
+                    src="/foto_3.jpeg"
                     alt="Diskusi kelompok"
                     fill
                     className="object-cover"
@@ -52,7 +52,7 @@ export default function AboutUs() {
                 {/* Image 4 - Bottom Right */}
                 <div className="col-span-8 row-span-3 relative rounded-xl overflow-hidden bg-gray-200 dark:bg-gray-700 shadow-lg">
                   <Image
-                    src="/IMG_9097.png"
+                    src="/foto_2.jpeg"
                     alt="Kolaborasi"
                     fill
                     className="object-cover"

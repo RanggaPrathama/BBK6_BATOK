@@ -92,7 +92,7 @@ export default function Programs() {
             </h2>
 
             <p className="text-muted-foreground text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-              Ini adalah program unggulan kelompok kami pelatihan berbasis keterampilan dan pengembangan potensi diri. Dirancang dalam tiga hari kegiatan dengan pendekatan berbeda, program ini bertujuan menciptakan dampak positif yang signifikan dalam siswa MTS Miftahul Ulum.
+              Ini adalah program unggulan kelompok kami pelatihan berbasis keterampilan dan pengembangan potensi diri. Dirancang dalam tiga hari kegiatan dengan pendekatan berbeda, program ini bertujuan menciptakan dampak positif yang signifikan untuk siswa MTS Miftahul Ulum.
             </p>
           </motion.div>
 

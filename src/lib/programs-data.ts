@@ -465,7 +465,45 @@ export const programsData: Program[] = [
   "location": "SD Negeri Batok",
   "coordinator": "Karina Widiasti (132221214)",
   "createdAt": "2025-07-29"
+},
+{
+  "id": 10,
+  "slug": "kerja-bakti",
+  "title": "Kerja Bakti : Kolaborasi Mahasiswa KKN dan Warga dalam Mewujudkan Lingkungan Sehat",
+  "category": "Lingkungan",
+  "status": "Selesai",
+  "description": "Sebagai bagian dari kegiatan KKN Universitas Airlangga, program kerja bakti merupakan aksi nyata dalam menjaga kebersihan lingkungan sekitar. Mahasiswa KKN bersama warga RT 18 Dusun Kambatan, khususnya para bapak-bapak, melaksanakan kerja bakti membersihkan selokan, jalan kampung, dan fasilitas umum di sekitar lingkungan SD Negeri Batok.",
+  "objectives": [
+    "Meningkatkan kesadaran masyarakat akan pentingnya menjaga kebersihan lingkungan",
+    "Menjalin silaturahmi dan kolaborasi antara mahasiswa dan warga setempat",
+    "Mendorong partisipasi aktif warga dalam menciptakan lingkungan yang sehat dan nyaman"
+  ],
+  "timeline": "13 Juli 2025, pukul 06.30 – 09.30 WIB",
+  "participants": "Mahasiswa KKN dan Warga RT 18 Dusun Kambatan",
+  "achievements": [
+    "Selokan, jalan kampung, dan area sekitar SD Negeri Batok menjadi lebih bersih",
+    "Terciptanya hubungan sosial yang lebih erat antara mahasiswa dan warga",
+    "Meningkatkan semangat gotong royong sebagai nilai penting dalam menjaga lingkungan",
+  ],
+  "image": "/asset/program/kerja_bakti_4.jpeg",
+  "images":[
+    "/asset/program/kerja_bakti_2.jpeg",
+    "/asset/program/kerja_bakti_3.jpeg",
+    "/asset/program/kerja_bakti_1.jpeg",
+    "/asset/program/kerja_bakti_5.jpeg",
+  ],
+  "content": [
+    {
+      "title": "Menjaga Kebersihan Lingkungan",
+      "content": "Kegiatan kerja bakti ini bertujuan untuk membersihkan selokan, jalan kampung, dan area sekitar SD Negeri Batok. Dengan melibatkan warga setempat, diharapkan tercipta kesadaran kolektif akan pentingnya menjaga kebersihan lingkungan demi kesehatan bersama.",
+    },
+   
+  ],
+  "location": "Dusun Kambatan, RT 18, Desa Batok",
+  "coordinator": "Rizq Anargya Asas (173221054)",
+  "createdAt": "2025-07-29"
 }
+
 
 ];
 
