@@ -25,6 +25,9 @@ export default function ProgramsPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
               Program Kerja{" "}
               <span className="bg-gradient-to-r from-primary to-orange-600 bg-clip-text text-transparent">
+                4 Bidang Garap{" "}
+              </span>
+              <span className="bg-gradient-to-r from-primary to-orange-600 bg-clip-text text-transparent">
                 BBK6 Batok
               </span>
             </h1>
@@ -36,9 +39,9 @@ export default function ProgramsPage() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-12">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">
+                <div className="text-4xl font-bold text-primary">
                   {allPrograms.length}
                 </div>
                 <div className="text-sm text-muted-foreground">
@@ -47,19 +50,54 @@ export default function ProgramsPage() {
               </div>
 
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">
+                <div className="text-4xl font-bold text-primary">
                   {allPrograms.filter((p) => p.status === "Selesai").length}
                 </div>
                 <div className="text-sm text-muted-foreground">
                   Telah Selesai
                 </div>
               </div>
+
+  
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">4</div>
-                <div className="text-sm text-muted-foreground">
-                  Kategori KKN
+                <div className="text-4xl font-bold text-green-700 dark:text-green-200">
+                  {allPrograms.filter((p)=> p.category === "Kesehatan").length}
+                </div>
+                <div className="text-sm  text-green-700 dark:text-green-200">
+                  Program Kesehatan
+                </div>
+
+              </div>
+
+              <div className="text-center">
+                <div className="text-3xl font-bold text-blue-700 dark:text-blue-200">
+                  {allPrograms.filter((p)=> p.category === "Pendidikan").length}
+                </div>
+                <div className="text-sm text-blue-700 dark:text-blue-200">
+                  Program Pendidikan
+                </div>
+
+              </div>
+
+                
+              <div className="text-center">
+                <div className="text-3xl font-bold text-yellow-600 dark:text-yellow-200">
+                  {allPrograms.filter((p)=> p.category === "Ekonomi").length}
+                </div>
+                <div className="text-sm text-yellow-600 dark:text-yellow-200">
+                  Program Ekonomi
                 </div>
               </div>
+
+              <div className="text-center">
+                <div className="text-3xl font-bold text-cyan-600 dark:text-cyan-200">
+                  {allPrograms.filter((p)=> p.category === "Lingkungan").length}
+                </div>
+                <div className="text-sm text-cyan-600 dark:text-cyan-200">
+                  Program Lingkungan
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
